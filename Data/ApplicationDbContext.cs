@@ -1,10 +1,13 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
+
 namespace MusicLibraryAPI.Data
 {
-	public class ApplicationDbContext
+	public class ApplicationDbContext : DbContext
 	{
-		public ApplicationDbContext()
+		public ApplicationDbContext(DbContextOptions options) : base(options)
 		{
+
 		}
 	}
 }
