@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "4f977033-3a83-4903-85c5-54cf59237ac7",
+		"name": "ASPNET_Songs_WebAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30169625"
+	},
+	"item": [
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7010/api/Songs",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7010",
+					"path": [
+						"api",
+						"Songs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Title\": \"Be Free\",\n    \"Artist\": \"J. Cole\",\n    \"Album\": \"2014 Forest Hills Drive\",\n    \"ReleaseDate\": \"2014-12-09\",\n    \"Genre\": \"Hip-Hop\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7010/api/Songs",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7010",
+					"path": [
+						"api",
+						"Songs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Id\": 4,\n    \"Title\": \"Hello\",\n    \"Artist\": \"J. Cole\",\n    \"Album\": \"2014 Forest Hills Drive\",\n    \"ReleaseDate\": \"2014-12-09\",\n    \"Genre\": \"Hip-Hop/Rap\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7010/api/Songs/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7010",
+					"path": [
+						"api",
+						"Songs",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Title\": \"Hello\",\n    \"Artist\": \"J. Cole\",\n    \"Album\": \"2014 Forest Hills Drive\",\n    \"ReleaseDate\": \"2014-12-09\",\n    \"Genre\": \"Hip-Hop/Rap\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7010/api/Songs/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7010",
+					"path": [
+						"api",
+						"Songs",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Title\": \"Hello\",\n    \"Artist\": \"J. Cole\",\n    \"Album\": \"2014 Forest Hills Drive\",\n    \"ReleaseDate\": \"2014-12-09\",\n    \"Genre\": \"Hip-Hop/Rap\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7010/api/Songs/14",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7010",
+					"path": [
+						"api",
+						"Songs",
+						"14"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
