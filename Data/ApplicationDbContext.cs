@@ -25,7 +25,7 @@ namespace MusicLibraryAPI.Data
                     Title = "Intro",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -34,7 +34,7 @@ namespace MusicLibraryAPI.Data
                     Title = "January 28th",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -43,7 +43,7 @@ namespace MusicLibraryAPI.Data
                     Title = "Wet Dreamz",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2012-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -52,7 +52,7 @@ namespace MusicLibraryAPI.Data
                     Title = "'03 Adolescence",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -61,7 +61,7 @@ namespace MusicLibraryAPI.Data
                     Title = "A Tale Of 2 Citiez",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -70,7 +70,7 @@ namespace MusicLibraryAPI.Data
                     Title = "Fire Squad",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -79,7 +79,7 @@ namespace MusicLibraryAPI.Data
                     Title = "St. Tropez",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -88,7 +88,7 @@ namespace MusicLibraryAPI.Data
                     Title = "G.O.M.D",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -97,7 +97,7 @@ namespace MusicLibraryAPI.Data
                     Title = "No Role Models",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -106,7 +106,7 @@ namespace MusicLibraryAPI.Data
                     Title = "Hello",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -115,7 +115,7 @@ namespace MusicLibraryAPI.Data
                     Title = "Apparently",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -124,7 +124,7 @@ namespace MusicLibraryAPI.Data
                     Title = "Love Yourz",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 },
                 new Song
@@ -133,7 +133,7 @@ namespace MusicLibraryAPI.Data
                     Title = "Note To Self",
                     Artist = "J. Cole",
                     Album = "2014 Forest Hills Drive",
-                    ReleaseDate = new DateTime(2014-12-09),
+                    ReleaseDate = new DateOnly(2014, 12, 09),
                     Genre = "Hip-Hop"
                 }
 
